@@ -1,0 +1,34 @@
+Put all required libraries into this folder. Do not commit libraries contained in this folder to the repository.
+These libraries are:
+- Apache Commons CLI version: 1.4 from http://artfiles.org/apache.org//commons/cli/binaries/commons-cli-1.4-bin.tar.gz (Apache Licence Version 2.0 - compatible with LGPL v3)
+- Jeromq version: 0.4.0 from http://central.maven.org/maven2/org/zeromq/jeromq/0.4.0/jeromq-0.4.0.jar (MPL 2.0 - compatible with LGPL v3)
+- Apache Jena version: 3.3.0 from http://mirror.23media.de/apache/jena/binaries/apache-jena-3.4.0.tar.gz (Apache Licence Version 2.0 - compatible with LGPL v3)
+	- arq
+	- base
+	- core
+	- iri
+	- shaded-guava
+	- xerces version: 2.11.0 (Apache Licence Version 2.0 - compatible with LGPL v3)
+		- xercesImpl
+		- xml-apis
+	- slf4j-api version: 1.7.21 (MIT licence (X11 Licence) - compatible with LGPL v3)
+	- libthrift
+	- collection
+	- httpclient
+- Apache Jena-CSV version: 3.3.0 from http://central.maven.org/maven2/org/apache/jena/jena-csv/3.4.0/jena-csv-3.4.0.jar
+- slf4j-nop version: 1.7.25 from http://www.slf4j.org/dist/slf4j-1.7.25.tar.gz (MIT licence (X11 Licence) - compatible with LGPL v3)
+- mapdb from version: 1.0.9  http://central.maven.org/maven2/org/mapdb/mapdb/1.0.9/mapdb-1.0.9.jar [ http://www.mapdb.org/ ] (Apache Licence Version 2.0 - compatible with LGPL v3)
+- Apache FtpServer version: 1.1.1 from http://archive.apache.org/dist/mina/ftpserver/1.0.5/ftpserver-1.1.1.zip (Apache Licence Version 2.0 - compatible with LGPL v3)
+- Apache Commons Net version: 3.6 from http://mirror.softaculous.com/apache//commons/net/binaries/commons-net-3.6-bin.tar.gz (Apache Licence Version 2.0 - compatible with LGPL v3)
+- RockDB (modified BSD (3 clauses) - compatible with LGPL v3)
+- RocksDB JNI version: 5.4.5 from http://central.maven.org/maven2/org/rocksdb/rocksdbjni/5.4.5/rocksdbjni-5.4.5.jar (Apache Licence Version 2.0 - compatible with LGPL v3)
+- Osgi.core version: 6.0.0 from http://central.maven.org/maven2/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar (Apache Licence Version 2.0 - compatible with LGPL v3)
+- Snappy Java version: 1.1.4 from http://central.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.4/snappy-java-1.1.4.jar (Apache Licence Version 2.0 - compatible with LGPL v3)
+
+- SQLite JDBC version: 3.19.3 from http://central.maven.org/maven2/org/xerial/sqlite-jdbc/3.19.3/sqlite-jdbc-3.19.3.jar (Apache Licence Version 2.0 - compatible with LGPL v3)
+
+- Symas Lightning Memory-Mapped Database (LMDB) version: LMDB_0.9.16 from https://github.com/LMDB/lmdb.git [ http://symas.com/mdb/ ] (OpenLDAP Public License v 2.8 - compatible with LGPL)
+- LMDB JNI version: 0.4.4 from https://github.com/deephacks/lmdbjni.git (Apache License Version 2.0 - compatible with LGPL v3)
+
+not used:
+- Oracle Berkeley DB Java Edition version: 6.4.9 from http://download.oracle.com/maven/com/sleepycat/je/6.4.9/je-6.4.9.jar (...-sources.jar (GNU AGPL v3 - NOT compatible with LGPL )

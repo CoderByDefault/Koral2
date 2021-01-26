@@ -1,0 +1,27 @@
+from fabric.api import *
+
+# addresses of masters and slaves
+env.roledefs = {
+	'master': ["koral-master"],
+	'slaves': ["koral-slave001", "koral-slave002"]
+}
+
+# define user by
+# command line argument -u userName
+# env.user = ""
+
+# define authentication by key file by 
+# command line argument -i /path/to/private/keyfile
+# env.key_filename = ""
+
+# authentication via password
+# recommended: command line argument --initial-password-prompt
+# env.password
+
+# use gateway host
+# command line argument -g gatewayHost
+# env.gateway
+
+def initialiseVM():
+    # execute commands to initialize VM
+    return
