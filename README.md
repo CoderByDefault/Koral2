@@ -31,7 +31,7 @@ sudo apt-get -y install git unzip maven metis
 
 Now, you can clone the Koral git repository, change into it
 ```
-git clone https://github.com/CoderByDefault/Koral.git
+git clone https://github.com/CoderByDefault/Koral2.git
 cd koral
 ```
 and build Koral
@@ -55,7 +55,9 @@ Thereafter, you start the two slaves by executing:
 `java -jar target/koral.jar slave -c ./koralLocalConfig.xml`
 
 When Koral is running you can load a dataset by executing:
-`java -jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c HASH <datasetFile>`
+`java -jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c PREDICATE <datasetFile>`
+
+Enums at command prompt for partitioning methods for dataset loading are: SUBJECT for Subject-based, HIERARCHICAL for Hierarchical, MIN_EDGE_CUT for MIN-Edgecut, PREDICATE for Predicate-based, HORIZONTAL for Horizontal, TCV_MIN for TCV_Min and RECURSIVE for Recursive-bisection.
 
 To request a query you can execute:
 `java -jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 query -q <queryFile.sparql>`
